@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="palette.css">
+    </head>
+    <body>
+
+    <h1>COLOUR PALETTE DESIGNER</h1>
+
+    <div id="colour-wrapper">
+        <div id="base-colour" class="colour"></div>
+        <div id="colour2" class="colour"></div>
+        <div id="colour3" class="colour"></div>
+        <div id="colour4" class="colour"></div>
+        <div id="colour5" class="colour"></div>
+    </div>
+
+    <div id="picker-wrapper">
+        <h3>Pick a base colour 🎨  :</h3> 
+        <input type="color" id="colour-picker" value="#efefef"/>
+    </div>
+
+    <div id="harmony-wrapper">
+        <h3>Pick a harmony  ✔  :</h3>
+        <select id="harmonies" class="harmonies">
+            <option value="analogous">Analogous</option>
+            <option value="monochromatic">Monochromatic</option>
+            <option value="triad">Triad</option>
+            <option value="complementary">Complementary</option>
+            <option value="compound">Compound</option>
+            <option value="shades">Shades</option>
+        </select>
+    </div>
+
+        <script src="palette.js"></script>
+    </body>
+</html>
